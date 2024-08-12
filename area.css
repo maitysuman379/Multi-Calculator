@@ -1,0 +1,63 @@
+body{
+    margin: auto;
+    background-color: white;
+    /* background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,141,75,0) 69%, rgba(0,212,255,1) 100%); */
+}
+#hadder{
+    font-size: 20px;
+    color: rgb(172, 0, 95);
+    padding-left: 25px;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: navy;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: rgb(0, 150, 152);
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size:18px;}
+}
+
+#container{
+    background-color: #9999FF;
+    width: 20%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15%;
+}
+label{
+    font-size: 20px;
+}

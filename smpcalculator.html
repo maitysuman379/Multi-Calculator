@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="smpcalculator.css">
+    <script defer src="smpcalculator.js"></script>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <p id="hadder">Calculator</p>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="smpcalculator.html" target="_self">Simple</a>
+        <a href="calculator.html" target="_self">Scientific</a>
+        <a href="area.html" target="_self">Area</a>
+        <a href="age.html">Age</a>
+        <!-- <a href="#">History</a> -->
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="color">&#9776; Simple</span>
+
+      
+    <div class="container">
+        <div class="calculator">
+            <div class="result">
+            <div class="history">
+                <p id="history-value"> </p>
+            </div>
+            <div class="output">
+                <p id="output-value"></p>
+            </div>
+            </div>
+            <div class="keybord">
+                <button class="operator" id="clear">C</button>
+                <button class="operator" id="backspace">CE</button>
+                <button class="operator" id="%">5</button>
+                <button class="operator" id="/">&#247;</button>
+
+                <button class="number" id="7">7</button>
+                <button class="number" id="8">8</button>
+                <button class="number" id="9">9</button>
+                <button class="number" id="*">&times;</button>
+
+                <button class="number" id="6">6</button>
+                <button class="number" id="5">5</button>
+                <button class="number" id="4">4</button>
+                <button class="number" id="-">-</button>
+
+                <button class="number" id="1">1</button>
+                <button class="number" id="2">2</button>
+                <button class="number" id="3">3</button>
+                <button class="operator" id="+">+</button>
+
+                <button class="empty" id="empty"></button>
+                <button class="number" id="0">0</button>
+                <button class="empty" id="empty"></button>
+                <button class="operator" id="=">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

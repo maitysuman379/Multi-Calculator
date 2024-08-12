@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="area.css">
+    <script defer src="area.js"></script>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <p id="hadder">Calculator</p>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="smpcalculator.html" target="_self">Simple</a>
+        <a href="calculator.html" target="_self">Scientific</a>
+        <a href="area.html" target="_self">Area</a>
+        <a href="age.html">Age</a>
+        <!-- <a href="#">History</a> -->
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="font">&#9776; Area</span>
+
+      
+    <div id="container">
+        <label>Radius: </label><br>
+        <input type="text" id="txtRadius" value="0"/><br><br>
+
+        <input type="button" value="calculate" onclick="calculate"/>
+        <input type="button" value="reset" onclick="reset()"/><br><br>
+
+        <span id="spnResult"><h4>Area of circle=0</h4></span>
+    </div>
+    <!-- <script type="text/javascript">
+        function calculate(){
+           var r= Number (document.getElementById("txtRadius").value);
+           var areaOfcircle= Math.PI*r*r;
+           document.getElementById("spnResult").innerHTML="Area of circle="+areaOfcircle.tofixed(2);
+        }
+        function reset{
+            document.getElementById("txtRadius").value="0";
+            document.getElementById("spnResult").innerHTML= "Area of circle= 0";
+        } -->
+    </script>
+</body>
+</html>
